@@ -1,6 +1,6 @@
 from werkzeug.security import safe_str_cmp
 from models.user import UserModel
-from Rest_SqlAlchemy.resources.user import UserModel
+from resources.user import UserModel
 
 
 def authentication(username,password):
