@@ -15,9 +15,9 @@ app.config['SQLALCHEMY_TRACK_MODIFICATION'] = False
 
 api = Api(app)
 
-@app.before_first_request
-def create_table():
-    db.create_all()
+# @app.before_first_request
+# def create_table():
+#     db.create_all()
 
 app.secret_key = "shailu"
 
